@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>淘宝网 - 我的购物车</title>
+
+	<link href="../imgs/logo.png" rel="shortcut icon" type="image/x-icon">
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../css/myCar.css">
+
+</head>
+<body>
+	
+	<div id="site_nav" >
+		<span id="left">
+			<span id="welcome">喵，欢迎来天猫</span> 
+			<a href="#">请登录</a> 
+			<a href="#">免费注册</a> 
+		</span>
+		<ul id="right">
+			<li>
+			 	<div id="myBuy">
+			 		<a href="#" >我的淘宝<img src="../imgs/more_unfold.png" class="more_unfoldImg">
+		 			<div id="myBuyShow" class="hide">
+		 				<a href="#">已买到宝贝</a><br>&nbsp;&nbsp;
+		 				<a href="#">已卖出宝贝</a>
+		 			</div>
+			 	</div>
+			</li>
+			<li>
+				<div>
+					<a href="#"><img src="../imgs/payCar.png" id="payCarImg">购物车0件</a> 
+				</div>
+			</li>
+			<li>
+				<div id="favorite">
+					<a href="#" >收藏夹<img src="../imgs/more_unfold.png" class="more_unfoldImg">
+					<div id="favoriteShow" class="hide">
+						<a href="#">收藏的宝贝</a><br>&nbsp;&nbsp;
+						<a href="#">收藏的店铺</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div id="phone_versions">
+					<a href="#"><img src="../imgs/phone.png" id="phoneImg">手机版</a> 
+					<div id="phone_versionsShow" class="hide">
+						<img src="../imgs/erweima.png">
+					</div>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href="#">淘宝网</a> 
+				</div>
+			</li>
+		 	<li>
+				<div id="suppot">
+					<a href="#" >商家支持<img src="../imgs/more_unfold.png" class="more_unfoldImg">
+					<div id="suppotShow" class="hide" >
+						<span>商家:</span><br>
+						<a href="#">商家中心 </a>	<a href="#">天猫规则 </a> 
+						<a href="#">商家入驻 </a>	<a href="#">运营服务 </a> 
+						<a href="#">商家品控 </a>	<a href="#">商家工具 </a> 
+						<a href="#">天猫智库 </a>	<a href="#">喵言喵语 </a> 
+					</div>
+				</div>
+			</li>
+			<li>
+				<div id="navigation">
+					<a href="#"><span class="sort" style="color: red;"></span>网站导航<img src="../imgs/more_unfold.png" class="more_unfoldImg"></a>
+					<div class="hide" id="navigationShow">
+						<div id="hot">
+							<h2 style="color: orange;font-size: 15px;">热点推荐 Hot</h2>
+							<ul>
+								<li><a href="#">天猫超市</a></li>
+								<li><a href="#">喵鲜生<img src="../imgs/t2.gif"></a></li>
+								<li><a href="#">科技新品</a></li>
+								<li><a href="#">女装新品</a></li>
+								<li><a href="#">酷玩街</a></li>
+								<li><a href="#">内衣新品<img src="../imgs/t1.gif"></a></li>
+								<li><a href="#">试美妆</a></li>
+								<li><a href="#">运动新品<img src="../imgs/t2.gif"></a></li>
+								<li><a href="#">时尚先生</a></li>
+								<li><a href="#">精明妈咪</a></li>
+								<li><a href="#">吃乐会</a></li>
+								<li><a href="#">企业采购<img src="../imgs/t2.gif"></a></li>
+								<li><a href="#">会员积分</a></li>
+								<li><a href="#">天猫国际<img src="../imgs/t1.gif"></a></li>
+								<li><a href="#">品质频道</a></li>
+							</ul>
+						</div>
+						<div id="Market">
+							<h2 style="color: #535df9;font-size: 15px;">行业市场 Market</h2>
+							<ul>
+								<li><a href="#">美妆<img src="../imgs/t1.gif"></a></li>
+								<li><a href="#">电器</a></li>
+								<li><a href="#">科技新品</a></li>
+								<li><a href="#">女装<img src="../imgs/t2.gif"></a></li>
+								<li><a href="#">男装</a></li>
+								<li><a href="#">女鞋</a></li>
+								<li><a href="#">男鞋<img src="../imgs/t2.gif"></a></li>
+								<li><a href="#">内衣</a></li>
+								<li><a href="#">运动</a></li>
+								<li><a href="#">家装<img src="../imgs/t1.gif"></a></li>
+								<li><a href="#">母婴</a></li>
+								<li><a href="#">食品</a></li>
+								<li><a href="#">配饰</a></li>
+								<li><a href="#">汽车<img src="../imgs/t2.gif"></a></li>
+							</ul>
+						</div> 
+   
+						<div id="help">
+							<h2 style="color: red;font-size: 15px;">服务指南 Help</h2>
+							<ul>
+								<li><a href="#">帮助中心</a></li>
+								<li><a href="#">品质保障</a></li>
+								<li><a href="#">特色服务</a></li>
+								<li><a href="#">7天退换货</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!-- 第一行end -->
+
+	<div id="header">
+		<span>
+			<a href=""><img src="../imgs/car/logo.png" align="absmiddle"></a>
+		</span>
+		<div id="serach">
+			<input type="text" name="" placeholder="请输入店铺 宝贝名"><button>搜 索</button>
+		</div>
+	</div>
+	<div id="s2">
+		<a href="">全部商品 <span class="red">12</span></a>
+		<a href="">降价商品 <span class="red">5</span></a>
+		<a href="">库存紧张 <span class="red">0</span></a>
+		<span class="check">已选商品（不含运费）<span class="red"> 0.00</span></span>
+		<button > 结 算 </button>
+	</div>
+	<div id="goods">
+		<div id="g1">
+			<input type="checkbox" name="">全选
+			<span id="com">商品信息</span>
+			<span id="one_price">单价</span>
+			<span>数量</span>
+			<span>金额</span>
+			<span>操作</span>
+		</div>
+		<div class="g2">
+			<div class="store">
+				<input type="checkbox" name="">
+				<span class="header">
+					店铺：<a href="">韩束官方旗舰店</a> <span class="wang">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				</span>
+			</div>
+			<div class="goodsInfo">
+				<input type="checkbox" name="">
+				<div class="img">
+					<a href=""><img src="../imgs/detail/d03.jpg" align="absmiddle"></a>
+				</div>
+				<div class="title">
+					<a href="" >韩束墨菊巨补水化妆品</a>
+				</div>
+				<div class="canshu">
+					<span>颜色分类：墨菊补水奢享礼盒</span>
+				</div>
+				<div class="priceOne">
+					<strong>￥180.00</strong>
+				</div>
+				<div class="count">
+					<button>-</button><input type="text" name="" value="1"><button>+</button>
+				</div>
+				<div class="price">
+					 <strong style="color: red;">￥180.00</strong>
+				</div>
+				<div class="handle">
+					 <a href=""><span>删除</span></a>
+				</div>
+			</div>
+
+			<div class="goodsInfo">
+				<input type="checkbox" name="">
+				<div class="img">
+					<a href=""><img src="../imgs/detail/d04.jpg" align="absmiddle"></a>
+				</div>
+				<div class="title">
+					<a href="" >韩束墨菊巨补水化妆品</a>
+				</div>
+				<div class="canshu">
+					<span>颜色分类：墨菊补水奢享礼盒</span>
+				</div>
+				<div class="priceOne">
+					<strong>￥180.00</strong>
+				</div>
+				<div class="count">
+					<button>-</button><input type="text" name="" value="1"><button>+</button>
+				</div>
+				<div class="price">
+					 <strong style="color: red;">￥180.00</strong>
+				</div>
+				<div class="handle">
+					 <a href=""><span>删除</span></a>
+				</div>
+			</div>
+
+			<div class="goodsInfo">
+				<input type="checkbox" name="">
+				<div class="img">
+					<a href=""><img src="../imgs/detail/d05.jpg" align="absmiddle"></a>
+				</div>
+				<div class="title">
+					<a href="" >韩束墨菊巨补水化妆品</a>
+				</div>
+				<div class="canshu">
+					<span>颜色分类：墨菊补水奢享礼盒</span>
+				</div>
+				<div class="priceOne">
+					<strong>￥180.00</strong>
+				</div>
+				<div class="count">
+					<button>-</button><input type="text" name="" value="1"><button>+</button>
+				</div>
+				<div class="price">
+					 <strong style="color: red;">￥180.00</strong>
+				</div>
+				<div class="handle">
+					 <a href=""><span>删除</span></a>
+				</div>
+			</div>
+
+			<div class="goodsInfo">
+				<input type="checkbox" name="">
+				<div class="img">
+					<a href=""><img src="../imgs/detail/d02.jpg" align="absmiddle"></a>
+				</div>
+				<div class="title">
+					<a href="" >韩束墨菊巨补水化妆品</a>
+				</div>
+				<div class="canshu">
+					<span>颜色分类：墨菊补水奢享礼盒</span>
+				</div>
+				<div class="priceOne">
+					<strong>￥180.00</strong>
+				</div>
+				<div class="count">
+					<button>-</button><input type="text" name="" value="1"><button>+</button>
+				</div>
+				<div class="price">
+					 <strong style="color: red;">￥180.00</strong>
+				</div>
+				<div class="handle">
+					 <a href=""><span>删除</span></a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 结算 -->
+		<div id="account">
+			<input type="checkbox" name="">全选
+			<a href="">清除失效宝贝</a>
+			<a href="">移入文件夹</a>
+			<a href="">分享</a>
+			<a href="" id="check">已选商品 <strong style="color: red;"> 0 </strong>件</a>
+			<a href="">合计（不含运费）：<strong style="color: red;">0.00</strong></a>
+			<button id="accountBtn"> 结 算 </button> 
+		</div>
+
+		<script type="text/javascript">
+			
+			$("#accountBtn").click(function(event) {
+				location.href="orderCreate.html";
+			});
+
+		</script>
+
+		<!-- 掌柜热卖 -->
+		<div id="auction">
+			<div id="title">
+				<a href="" id="hot"><strong>掌柜热卖</strong> </a>
+				<a href="" id="collect"><strong>最近收藏的</strong> </a>
+				<a href="" id="look"><strong>最近浏览过的</strong> </a>
+				<a href="" id="lick"><strong>猜你喜欢的</strong> </a>
+			</div>
+			
+			<!--  掌柜热卖 -->
+			<div id="imgs">
+				<div class="all">
+					<a href="">
+						<div id="img">
+							<img src="../imgs/car/g1.jpg">
+						</div>
+					</a>
+					<div id="info">
+						<strong style="color: red;">￥180.00</strong>
+						<div>欧莱雅男士护肤化妆品</div>
+					</div>
+				</div>
+				<div class="all">
+					<a href="">
+						<div id="img">
+							<img src="../imgs/car/g2.jpg">
+						</div>
+					</a>
+					<div id="info">
+						<strong style="color: red;">￥1890.00</strong>
+						<div>oppoR11</div>
+					</div>
+				</div>
+				<div class="all">
+					<a href="">
+						<div id="img">
+							<img src="../imgs/car/g3.jpg">
+						</div>
+					</a>
+					<div id="info">
+						<strong style="color: red;">￥168.00</strong>
+						<div>欧莱雅男士护肤化妆品</div>
+					</div>
+				</div>
+				<div class="all">
+					<a href="">
+						<div id="img">
+							<img src="../imgs/car/g4.jpg">
+						</div>
+					</a>
+					<div id="info">
+						<strong style="color: red;">￥189.00</strong>
+						<div>欧莱雅男士护肤化妆品</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div id="footer">
+	<img src="../imgs/car/footer.png">
+</div>
+
+
+
+<!-- 掌柜热卖。，悬浮 -->
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+
+		$("#goods #auction #title a").hover(function() {
+			$(this).css({
+				"border-bottom": '1px solid #d32412',
+				"color": '#d32412'
+			});
+
+		}, function() {
+			$(this).css({
+				"border-bottom": 'none',
+				"color": '#36384a'
+			});
+		});
+
+	});
+
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+	// 头部，加载悬浮数据
+	$(document).ready(function(){
+
+		// 我的淘宝
+		$("#myBuy").hover(function() {
+			$("#myBuyShow").removeClass('hide');
+			$("#myBuy").css({"background-color": "white"});
+			$("#myBuyShow").css({
+				"borderLeft":'1px solid #ccc',
+				"borderRight":'1px solid #ccc',
+				"borderBottom":'1px solid #ccc',
+			});
+		}, function() {
+			$("#myBuyShow").addClass('hide');
+			$("#myBuy").css({"background-color": "#f2f2f2"});
+		});
+		// 收藏夹
+		$("#favorite").hover(function() {
+			$("#favoriteShow").removeClass('hide');
+			$("#favorite").css({"background-color": "white"});
+			$("#favoriteShow").css({
+				"borderLeft":'1px solid #ccc',
+				"borderRight":'1px solid #ccc',
+				"borderBottom":'1px solid #ccc',
+			});
+		}, function() {
+			$("#favoriteShow").addClass('hide');
+			$("#favorite").css({"background-color": "#f2f2f2"});
+		});
+		// 手机版 
+		$("#phone_versions").hover(function() {
+			$("#phone_versionsShow").removeClass('hide');
+			$("#phone_versions").css({"background-color": "white"});
+			$("#phone_versionsShow").css({
+				"borderLeft":'1px solid #ccc',
+				"borderRight":'1px solid #ccc',
+				"borderBottom":'1px solid #ccc',
+			});
+		}, function() {
+			$("#phone_versionsShow").addClass('hide');
+			$("#phone_versions").css({"background-color": "#f2f2f2"});
+		});
+		// 商家支持 suppot
+		$("#suppot").hover(function() {
+			$("#suppotShow").removeClass('hide');
+			$("#suppot").css({"background-color": "white"});
+			$("#suppotShow").css({
+				"borderLeft":'1px solid #ccc',
+				"borderRight":'1px solid #ccc',
+				"borderBottom":'1px solid #ccc',
+			});
+		}, function() {
+			$("#suppotShow").addClass('hide');
+			$("#suppot").css({"background-color": "#f2f2f2"});
+		});
+
+		//网站导航 
+		$("#navigation").hover(function() {
+			$("#navigationShow").removeClass('hide');
+			$("#navigation").css({"background-color": "white"});
+			$("#navigationShow").css({
+				"borderLeft":'1px solid #ccc',
+				"borderRight":'1px solid #ccc',
+				"borderBottom":'1px solid #ccc',
+			});
+		}, function() {
+			$("#navigationShow").addClass('hide');
+			$("#navigation").css({"background-color": "#f2f2f2"});
+		});
+
+		
+	});
+
+
+</script>
+</body>
+</html>

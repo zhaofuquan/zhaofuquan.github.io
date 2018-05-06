@@ -1,0 +1,451 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+#header #title {
+	background-color: #f2f2f2;
+	height: 26px;
+	line-height: 26px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 13px;
+}
+
+#header #title  a{
+	text-decoration: none;
+	color: #999;
+	padding-right: 20px;
+}
+#header #title  a#index{
+	padding-left: 200px;
+}
+
+#header #title  a#myBuy{
+	padding-left: 200px;
+}
+#header #title  a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#header #title a strong{
+	color: #666;
+}
+
+#header #step{
+	padding-left: 100px;
+	height: 61px;
+	line-height: 61px;
+	background-color: #ff4401;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#header #step li{
+	list-style: none;
+	display: inline-block;
+}
+#header #step li a{
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	padding-right: 40px;
+}
+#header #step div.logo{
+	height: 36px;
+	width: 140px;
+	background-image: url('../imgs/myOrder/logo.png');
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	background-position: left center;
+	background-size: 140px 32px;
+	margin-right: 80px;
+}
+
+#header #step div{
+	display: inline-block;
+}
+
+#header #step div.search{
+	padding-left: 300px;
+}
+#header #step div.search input{
+	height: 27px;
+	width: 253px;
+	border: 0;
+}
+#header #step div.search button{
+	height: 27px;
+	width: 72px;
+	border: 0;
+	background-color: #f5f5f5;
+	border-left: 1px solid #d9d9d9;
+}
+
+
+div.content  {
+	margin-left: 180px;
+}
+div.content div.left{
+	display: inline-block;
+}
+div.content div.left ol li {
+	list-style: none;
+	padding-top: 10px;
+	width: 107px;
+}
+div.content div.left ol li a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+div.content div.left ol li a:hover{
+	color: red;
+}
+
+div.content div.left ol ul.hide li{
+	padding-left: 15px;
+}
+
+
+div.content div.else{
+	display: inline-block;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+div.content div.else div.nav{
+	height: 32px;
+	width: 870px;
+	border-bottom: 2px solid #ccc;
+}
+div.content div.else div.nav ul {
+	margin: 0;
+	padding: 0;
+}
+div.content div.else div.nav ul li{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 40px;
+}
+div.content div.else div.nav ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	font-family: Microsoft YaHei;
+	font-weight: 550;
+}
+div.content div.else div.nav ul li a.recycle{
+	margin-left: 170px;
+	font-size: 12px;
+	color: #6c6c6c;
+	font-weight:100;
+} 
+div.content div.else div.nav ul li a:hover{
+	color: #ff6000;
+}
+div.content div.else div.search{
+	margin-top: 20px;
+}
+div.content div.else div.search input{
+	height: 26px;
+	width: 226px;
+}
+div.content div.else div.search button{
+	height: 28px;
+	width: 81px;
+}
+div.content div.else div.search a{
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+	margin-left: 10px;
+}
+div.content div.else div.goods div.title{
+	margin-top: 10px;
+	background-color: #f5f5f5;
+	border: 1px solid #e8e8e8;
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	color: #666;
+} 
+
+div.content div.else div.goods div.title table th{
+	 padding-left: 40px;
+}
+div.content div.else div.goods div.title div.btn{
+	float: right;
+}
+div.content div.else div.goods div.title div.btn button{
+	margin-left: 10px;
+}
+
+div.content div.else div.list{
+	margin-top: 40px;
+}
+
+div.content div.else div.list .goods .title{
+	background-color: #f5f5f5;
+	height: 42px;
+	line-height: 42px;
+}
+div.content div.else div.list .goods .title ul li{
+	list-style: none;
+	display: inline-block;
+}
+div.content div.else div.list .goods .title ul li.del{
+	float: right;
+} 
+
+div.content div.else div.list .goods .title ul li.tel{
+	background-image: url('../imgs/myOrder/sprite.gif');
+	background-position: 0px 0px;
+    vertical-align: middle;
+} 
+
+div.content div.else div.list .goods .info div{
+	display: inline-block;
+}
+div.content div.else div.list .goods .info .img{
+	display: inline-block;
+	width: 310px;  
+}
+
+div.content div.else div.list .goods .info {
+	border: 1px solid #ccc;
+}
+
+div.content div.else div.list .goods .info .img .i1 img{
+	height: 80px;
+	width: 80px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+div.content div.else div.list .goods .info .img .text{
+	position: absolute;
+	width: 220px;
+	font-size: 13px;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+div.content div.else div.list .goods .info .img .text p{
+	padding-top: 5px;
+}
+
+div.content div.else div.list .goods .info .onePrice{
+	position: absolute;
+	width: 80px;
+	padding-top: 20px;
+	padding-left: 50px;
+	font-size: 13px;
+	display: inline-block;
+}
+
+div.content div.else div.list .goods .info .count{
+	position: absolute;
+	width: 80px;
+	padding-top: 20px;
+	padding-left: 150px;
+	font-size: 13px;
+	display: inline-block;
+}
+div.content div.else div.list .goods .info .goodsHandle{
+	position: absolute;
+	width: 80px;
+	padding-top: 20px;
+	padding-left: 220px;
+	font-size: 13px;
+	display: inline-block;
+	
+}
+
+div.content div.else div.list .goods .info .goodsHandle p a {
+	color: black;
+	text-decoration: none;
+}
+
+div.content div.else div.list .goods .info .price{
+	position: absolute;
+	width: 80px;
+	padding-top: 20px;
+	padding-left: 300px;
+	font-size: 13px;
+	display: inline-block;
+}
+div.content div.else div.list .goods .info .state{
+	position: absolute;
+	width: 80px;
+	padding-top: 20px;
+	padding-left: 390px;
+	font-size: 13px;
+	display: inline-block;
+}
+
+div.content div.else div.list .goods .info .state p a {
+	color: black;
+	text-decoration: none;
+}
+
+div.content div.else div.list .goods .info .han{
+	position: absolute;
+	width: 80px;
+	padding-top: 20px;
+	padding-left: 500px;
+	font-size: 13px;
+	display: inline-block;
+}
+div.content div.else div.list .goods .info .han p a {
+	color: black;
+	text-decoration: none;
+}
+div.content div.else div.list .goods .info .han p button{
+	width: 50px;
+	height: 28px;
+}
+
+div.content div.else div.page{
+	float: right;
+	margin-top: 20px;
+}
+
+div.content div.else div.page button{
+	height: 35px;
+	width: 35px;
+}
+
+
+
+div.hot{
+	padding-top: 250px;
+	padding-left: 180px;
+}
+
+div.hot div.title li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 5px;
+}
+div.hot div.title li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+}
+div.hot div.title li a:hover{
+	color: #F40;
+}
+div.hot div.goods{
+	margin-top: 20px;
+}
+div.hot div.goods div{
+	display: inline-block;
+	width: 232px;
+	height: 392px;
+	border: 1px solid #ccc;
+	margin-right: 15px;
+}
+div.hot div.goods div.c p.p2 strong{
+	color: #F40;
+}
+div.hot div.goods div.c p.p2 span.originalPrice{
+	text-decoration: line-through;
+	font-size: 13px;
+	color: #999;
+}
+div.hot div.goods div.c p.p2 span.ri{
+	float: right;
+	margin-right: 5px;
+	font-size: 12px;
+	background-color: #F40;
+	color: white;
+	width: 27px;
+	text-align: center;
+}
+div.hot div.goods div.c p.p3{
+	padding-top: 5px;
+	font-size: 13px;
+	color: #666;
+	text-align: center;
+}
+
+div.hot div.goods div.c p.p4{
+	padding-top: 5px;
+	font-size: 13px;
+	color: #666;
+}
+
+div.hot div.goods div.c p.p4 span.ri{
+	float: right;
+	margin-right: 5px;
+	color: white;
+	background-color: green;
+	font-size: 12px;
+}
+div.hot div.goods div.c p.p5{
+	padding-top: 5px;
+	font-size: 13px;
+	color: #666;
+}
+
+div.like {
+	margin-left: 180px;
+	margin-top: 40px;
+	width: 1020px;
+}
+
+div.like div.title span.like{
+	font-size: 20px;
+}
+
+div.like div.title span.find{
+	color: #6c6c6c;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+div.like div.title span.ri{
+	float: right;
+	font-size: 13px;
+	color: #6c6c6c;
+    letter-spacing: 3px;
+}
+div.like div.goods{
+	margin-top: 20px;
+}
+div.like div.goods div{
+	display: inline-block;
+	border: 1px solid #ccc;
+	height: 302px;
+	width: 186px;
+	margin-right: 12px;
+	margin-top: 30px;
+}
+div.like div.goods div.d1 img{
+	width: 184px;
+	height: 184px;
+}
+div.like div.goods div.d1 a{
+	text-decoration: none;
+	color: black;
+}
+
+div.like div.goods p{
+	margin-top: 5px;
+}
+
+div#jianyi{
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+div#jianyi a{
+	text-decoration: none;
+	color: blue;
+}
+

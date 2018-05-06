@@ -1,0 +1,483 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #f2f2f2;
+}
+
+ 
+
+#site_nav {
+	height: 32px;
+	width: auto;
+	background: #f2f2f2;
+	border-bottom: 1px solid #ccc;
+}
+#site_nav *{
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+	line-height: 32px;
+}
+#site_nav a:hover{
+	color: red;
+}
+#site_nav #left #welcome{
+	padding-left: 50px;
+}
+#site_nav #left *{
+	padding-left: 12px;
+}
+#site_nav #right{
+	margin-left: 680px;
+	margin-top: -32px;
+	height: 100px;
+}
+
+#site_nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+#site_nav #right a{
+	padding-right: 20px;
+}
+#site_nav #right a #payCarImg{
+	height: 13px;
+	width: 13px;
+}
+#site_nav #right a #phoneImg{
+	height: 15px;
+	width: 15px;
+}
+#site_nav #right a #CategoryImg{
+	height: 16px;
+	width: 16px;
+}
+#site_nav #right a .more_unfoldImg{
+	height: 12px;
+	width: 12px;
+}
+
+#site_nav #right #myBuyShow {
+	position: absolute;
+	height: 70px;
+	width: 100px;
+	z-index: 8;
+	background-color: white;
+}
+#site_nav #right #myBuyShow a{
+	margin-left: -10px;
+}
+
+#site_nav #right #favoriteShow {
+	position: absolute;
+	height: 70px;
+	width: 100px;
+	z-index: 8;
+	background-color: white;
+}
+#site_nav #right #favoriteShow a{
+	margin-left: -10px;
+}
+
+#site_nav #right #phone_versionsShow{
+	position: absolute;
+	z-index: 8;
+	background-color: white;
+}
+
+#site_nav #right #suppotShow{
+	position: absolute;
+	height: 170px;
+	width: 150px;
+	z-index: 8;
+	background-color: white;
+	margin-left: -70px;
+}
+ 
+#site_nav #right #suppotShow *{
+	margin-left: 8px;
+}
+#site_nav #right #navigationShow{
+	position: absolute;
+	height: 160px;
+	width: 1240px;
+	z-index: 8;
+	background-color: white;
+	margin-left: -1150px;
+}
+#site_nav #right #navigationShow #hot{
+	width: 520px;
+}
+
+#site_nav #right #navigationShow ul li{
+	list-style: none;
+	padding-left: 20px;
+}
+
+#site_nav #right #navigationShow #hot ul li a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+
+#site_nav #right #navigationShow #Market{
+	width: 520px;
+	margin-top: -155px;
+	margin-left: 490px;
+}
+#site_nav #right #navigationShow #Market ul li a:hover{
+	color: #535df9;
+	text-decoration: underline;
+}
+#site_nav #right #navigationShow  #help{
+	width: 280px;
+	margin-top: -155px;
+	margin-left: 970px;
+}
+/* header_end */
+
+#header_extra #div1{
+	background-color: white;
+}
+
+#header_extra #div1 #serach{
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 40px;
+	width: 490px;
+	height: 35px;
+	border-color: red;
+}
+#header_extra #div1 #subBtn{
+	position: absolute;
+	margin-left: 564px;
+	margin-top: 40px;
+	width: 135px;
+	height: 40.8px;
+	border-color: red;
+	border: none;
+	background-color: red;
+	color: white;
+	font-size: 21px;
+}
+#header_extra #div1 ul{
+	position: absolute;
+	margin-left: 300px;
+	margin-top: -50px;
+}
+
+#header_extra #div1 ul li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 22px;
+	width: auto;
+	font-size: 14px;
+}
+#header_extra #div1 ul li a{
+	text-decoration: none;
+	color: #999;
+}
+#header_extra #div1 #oppoImg{
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 15px;
+}	
+#header_footer{
+	margin-top: -17px;
+}
+#header_footer ul li{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: inline-block;
+	padding-left: 15px;
+	width: auto;
+	font-size: 16px;
+	height: 36px;
+	line-height: 36px;	
+}
+#header_footer ul li a{
+	text-decoration: none;
+	color: black;
+}
+#header_footer ul li a:hover{
+	color: red;
+}
+#header_footer ul li#goodsSort{
+	background-color: red;
+	width: 180px;
+	color: white;
+	font-size: 18px;
+}
+#header_footer ul li img#CategoryWhiteImg{
+	height: 16px;
+	width: 16px;
+}
+#header_footer ul li img.catImg{
+	height: 30px;
+	width: 100px;
+}
+#wrapper{
+	border-top:2px solid red;
+	margin-top: 13px;
+	/* background-image: url('../imgs/b1.jpg'); */
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#wrapper #classify{
+	background-color: rgba(105, 105, 105,0.9);
+	margin-left: 40px;
+	height: 100%;
+    width: 195px;
+}
+
+#wrapper #classify li{
+	list-style-type: none;
+	height: 31.2px;
+	line-height: 31.2px;
+	/* margin-top:5px; */
+	padding-left: 15px;
+}
+#wrapper #classify li a{
+	color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#wrapper #showSort1{
+	margin-left: 236px;
+	margin-top: -513px;	
+	z-index: 9999;
+	height: 495px;
+	background-color: white;
+	width: 650px;
+}
+#wrapper #showSort1 ol li {
+	list-style: none;
+	padding-top: 20px;		
+	border-bottom: 1px dashed #999;
+
+}
+#wrapper #showSort1 ol li span{
+	padding-left: 10px;	
+}
+#wrapper #showSort1 ol li .title{
+	font-weight: bold;
+	font-size: 15px;
+}
+#wrapper #showSort1 ol li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #666;
+}
+#wrapper #showSort1 ol li a.hot{
+	color: #e1337b;
+}
+#wrapper #showSort1 ol li a:hover{
+	color: #e1337b;
+}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+
+#middle #d1 li {
+	list-style: none;
+	display: inline-block;
+	height: 370px;
+	background-color: white;
+	margin-right: 20px;
+}
+#middle #d1 li h4{
+	height: 10px;
+}
+#middle #d1 li h4 .big{
+	margin-left: 195px;
+}
+#middle #d1 li a{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+
+#middle #m_supermarket {
+	padding-top: 20px;
+	width: 1224px;
+}
+#middle #m_supermarket #header{
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+}
+#middle #m_supermarket #header img{
+	width: 214px;
+	height: 25px;
+}
+#middle #m_supermarket ul{
+	display: inline-block;
+	float: right;
+	margin-top: 0px;
+}
+#middle #m_supermarket ul li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 20px;
+}
+#middle #m_supermarket ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+#middle #m_supermarket ul li a:hover{
+	color: red;
+	text-decoration: underline;  
+}
+#middle #m_supermarket #context{
+	margin-top: 10px;
+}
+#middle #m_supermarket #context #left{
+	display: inline-block;
+}
+#middle #m_supermarket #context #rightTop{
+	display: inline-block;
+}
+#middle #m_supermarket #context #rightTop ul{
+	padding-left: 5px;
+	margin-top: -618px;
+}
+#middle #m_supermarket #context #rightTop ul li{
+	height: 302px;
+	width: 236px;
+	padding-left: 0px;
+	background-color: white;
+	margin-left: 5px;
+}
+#middle #m_supermarket #context #rightTop ul li:hover{
+	border: 1px solid red;
+}
+#middle #m_supermarket #context #rightTop ul li .price{
+	color: red;
+	font-size: 17px;
+	padding-top: 10px;
+}
+#middle #m_supermarket #context #rightTop ul li .desc{
+	padding-top: 10px;
+}
+#middle #m_supermarket #context #rightTop ul li a img{
+	height: 185px;
+	width: 185px;
+	padding-top: 15px;
+}
+#middle #m_supermarket #context #rightBottom{
+	display: inline-block;
+}
+
+#middle #m_supermarket #context #rightBottom{
+	display: inline-block;
+}
+#middle #m_supermarket #context #rightBottom ul{
+	padding-left: 5px;
+	margin-top: -310px;
+	margin-left: 237px;
+}
+#middle #m_supermarket #context #rightBottom ul li{
+	height: 302px;
+	width: 236px;
+	padding-left: 0px;
+	background-color: white;
+	margin-left: 5px;
+}
+#middle #m_supermarket #context #rightBottom ul li:hover{
+	border: 1px solid red;
+}
+#middle #m_supermarket #context #rightBottom ul li .price{
+	color: red;
+	font-size: 17px;
+	padding-top: 10px;
+}
+#middle #m_supermarket #context #rightBottom ul li .desc{
+	padding-top: 10px;
+}
+#middle #m_supermarket #context #rightBottom ul li a img{
+	height: 185px;
+	width: 185px;
+	padding-top: 15px;
+}
+
+#middle #m_supermarket #context #rightBottom{
+	display: inline-block;
+}
+
+
+/* 天猫国际 */
+#international #header{
+	height: 30px;
+	width: 1220px;
+}
+#international #header img{
+	height: 25px;
+	width: 215px;
+}
+#international #header #clazz{
+	display: inline-block;
+	float: right ;
+}
+ 
+#international #header #clazz a{
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+}
+#international #imgs1 ul {
+ 	margin-left: -135px;
+ 	margin-top: 0px;
+}
+#international #imgs1 ul li{
+	background-color: white;
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 5px;
+	height: 302px;
+	width: 236px;
+}
+#international #imgs1 ul li:hover{
+	border: 1px solid red;
+}
+#international #imgs1 ul li a img{
+	height: 185px;
+	width: 185px;
+	padding-top: 20px;
+}
+#international #imgs1 ul li .desc{
+	padding-top: 10px;
+}
+#international #imgs1 ul li .price{
+	color: red;
+	padding-top: 10px;
+}
+
+
+/* 底部 */
+#footer{
+	background-color: black;
+}
+#footer p {
+	margin-left: 40px;
+
+}
+#footer p a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	margin-right: 5px;
+}
+#footer .p3 a{
+	margin-right: 50px;
+}
+

@@ -1,0 +1,316 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#header #title {
+	background-color: #f2f2f2;
+	height: 26px;
+	line-height: 26px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 13px;
+	
+}
+
+#header #title  a{
+	text-decoration: none;
+	color: #999;
+	padding-right: 20px;
+}
+#header #title  a#index{
+	padding-left: 200px;
+}
+
+#header #title  a#myBuy{
+	padding-left: 200px;
+}
+#header #title  a:hover{
+	color: red;
+	text-decoration: underline;
+}
+#header #title a strong{
+	color: #666;
+}
+
+#header #step{
+	padding-left: 180px;
+}
+
+
+/* address */
+#address {
+	/* height: 185px; */
+	width: 990px;
+	padding-left: 180px;
+}
+#address #list{
+	padding-top: 10px;
+}
+#address #list .d1{
+	color: #666;
+	font-size: 14px;
+	display: inline-block;
+	background-image: url('../imgs/orderCreate/bg01.png');
+	background-repeat: no-repeat;
+	height: 105px;
+	width: 237px;
+	padding-right: 5px;
+}
+#address #list .d1:hover{
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+
+#address #list .d1 div{
+	padding-top: 10px;
+}
+#address .control{
+	width: 990px;
+	margin-top: 20px;
+}
+#address .control a{
+	float: right;
+	text-decoration: none;
+	font-size: 14px;
+	color: #c97;
+}
+#address .service{
+	height: 104px;
+	width: 990px;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	font-size: 13px;
+}
+#address .service .title{
+	padding-left: 10px;
+	padding-top: 8px;
+	border-top: 2px solid red;
+	width: 180px;
+}
+#address .service .t2{
+	padding-left: 10px;
+	padding-top: 15px;
+}
+#address .service .t2 span{
+	padding-left: 10px;
+	color: #c97;
+}
+
+#address .orderDesc{
+	padding-top: 20px;
+}
+#address .orderDesc div {
+	padding-top: 20px;
+	border-bottom: 3px solid #1291d3;
+}
+#address .orderDesc div span{
+	font-size: 13px;
+	color: #666;
+}
+#address .orderDesc div span#s2{
+	padding-left: 200px;
+	padding-right: 50px;
+}
+#address .orderDesc div span{
+	padding-left: 90px;
+}
+#address .orderInfo {
+	padding-top: 20px;
+	font-size: 13px;
+}
+#address .orderInfo .dianpu img{
+	height: 16px;
+	width: 16px;
+}
+#address .orderInfo .dianpu span.wang{
+	background-image: url('../imgs/sprite/wangwang.gif');
+	background-position: -80px -4px;
+	width: 20px;
+	margin-left: 10px;
+}
+#address .orderInfo .item {
+	background-color: #f2f2f3;
+	height: 95px;
+	margin-top: 5px;
+	border-top: 1px dashed #5eab3f;
+	color: #6c6c6c;
+} 
+
+#address .orderInfo .item .i1{
+	display: inline-block;
+}
+
+#address .orderInfo .item .i1 img{
+	height: 50px;
+	width: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#address .orderInfo .item .i1 div.i1sub{
+	display: inline-block;
+	margin-top: -20px;
+}
+
+
+#address .orderInfo .item .i2{
+	width: 180px;
+	height: 36px;
+	display: inline-block;
+	padding-left: 50px;
+}
+#address .orderInfo .item .i3{
+	width: 160px;
+	height: 36px;
+	display: inline-block;
+	padding-left: 50px;
+	padding-top: -30px;
+}
+#address .orderInfo .item .i4{
+	height: 36px;
+	width: 100px;
+	display: inline-block;
+}
+#address .orderInfo .item .i5{
+	height: 36px;
+	display: inline-block;
+}
+#address .orderInfo .item .i6{
+	height: 36px;
+	display: inline-block;
+	margin-left: 50px;
+	color: red;
+	font-weight: 800;
+}
+/* 发票 */
+#address .orderInfo .invoice{
+	background-color: #f2f7ff;
+	height: 135px;
+	margin-top: 3px;
+	color: #596156;
+	font-size: 12px;
+}
+#address .orderInfo .invoice .check{
+	height: 38px;
+	width: 425px;
+	line-height: 38px;
+	display: inline-block;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+#address .orderInfo .invoice .transport{
+	height: 38px;
+	width: 540px;
+	line-height: 38px;
+	display: inline-block;
+	border-bottom: 2px solid white;
+}
+
+#address .orderInfo .invoice .transport strong{
+	color: red;
+	float: right;
+}
+#address .orderInfo .invoice .message{
+	height: 38px;
+	width: 425px;
+	line-height: 38px;
+	display: inline-block;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+#address .orderInfo .invoice .message input{
+	width: 328px;
+}
+
+
+#address .orderInfo .invoice .freight{
+	height: 38px;
+	width: 425px;
+	line-height: 38px;
+	display: inline-block;
+	border-bottom: 2px solid white;
+	width: 540px;
+}
+#address .orderInfo .invoice .freight strong{
+	float: right;
+	color: red;
+}
+
+#address .orderInfo .invoice .total{
+	height: 51px;
+	line-height: 51px;
+	border-bottom: 1px dashed green;
+}
+#address .orderInfo .invoice .total span{
+	float: right;
+}
+#address .orderInfo .invoice .total span strong{
+	font-size: 18px;
+	color: red;
+}
+
+#address .orderInfo .pay{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed green;
+}
+#address .orderInfo .pay span{
+	float: right;
+}
+
+#address .orderInfo .payInfo{
+	height: 125px;
+	margin-top: 10px;
+}
+
+#address .orderInfo .payInfo .shadow{
+	width: 300px;
+	height: 123px;
+	border: 1px solid red;
+	float: right;
+}
+
+#address .orderInfo .payInfo .money{
+	height: 40px;
+	line-height: 40px;
+	width: 266px;
+}
+#address .orderInfo .payInfo .money span{
+	float: right;
+
+}
+#address .orderInfo .payInfo .money span strong{
+	color: #ff0036;
+	font-size: 26px;
+}
+
+#address .orderInfo .submit div{
+	 float: right;
+} 
+#address .orderInfo .submit div a{
+ 	text-decoration: none;
+ 	font-size: 14px;
+ 	color: black;
+ }
+
+#address .orderInfo .submit div a:hover{
+  	color: red;
+  }
+
+#address .orderInfo .submit div button{
+	background-color: #ff0036;
+	width: 182px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    font-size: 18px;
+	color: white;
+	border: none;
+	margin-left:60px;
+}
+
+#footer{
+	margin-top: 100px;
+}

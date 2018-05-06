@@ -1,0 +1,361 @@
+ body{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+#site_nav {
+	height: 35px;
+	width: auto;
+	background: #eceeee;
+	border-bottom: 1px solid #ccc;
+}
+#site_nav *{
+	text-decoration: none;
+	color: #999;
+	font-size: 12px;
+	line-height: 32px;
+}
+#site_nav a:hover{
+	color: red;
+}
+#site_nav #left #welcome{
+	padding-left: 50px;
+}
+#site_nav #left *{
+	padding-left: 12px;
+}
+#site_nav #right{
+	margin-left: 680px;
+	margin-top: -32px;
+	height: 24px;
+}
+
+#site_nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+#site_nav #right a{
+	padding-right: 20px;
+}
+#site_nav #right a #payCarImg{
+	height: 13px;
+	width: 13px;
+}
+#site_nav #right a #phoneImg{
+	height: 15px;
+	width: 15px;
+}
+#site_nav #right a #CategoryImg{
+	height: 16px;
+	width: 16px;
+}
+#site_nav #right a .more_unfoldImg{
+	height: 12px;
+	width: 12px;
+}
+
+#site_nav #right #myBuyShow {
+	position: absolute;
+	height: 70px;
+	width: 100px;
+	z-index: 8;
+	background-color: white;
+}
+#site_nav #right #myBuyShow a{
+	margin-left: -10px;
+}
+
+#site_nav #right #favoriteShow {
+	position: absolute;
+	height: 70px;
+	width: 100px;
+	z-index: 8;
+	background-color: white;
+}
+#site_nav #right #favoriteShow a{
+	margin-left: -10px;
+}
+
+#site_nav #right #phone_versionsShow{
+	position: absolute;
+	z-index: 8;
+	background-color: white;
+}
+
+#site_nav #right #suppotShow{
+	position: absolute;
+	height: 170px;
+	width: 150px;
+	z-index: 8;
+	background-color: white;
+	margin-left: -70px;
+}
+ 
+#site_nav #right #suppotShow *{
+	margin-left: 8px;
+}
+#site_nav #right #navigationShow{
+	position: absolute;
+	height: 160px;
+	width: 1240px;
+	z-index: 8;
+	background-color: white;
+	margin-left: -1150px;
+}
+#site_nav #right #navigationShow #hot{
+	width: 520px;
+}
+
+#site_nav #right #navigationShow ul li{
+	list-style: none;
+	padding-left: 20px;
+}
+
+#site_nav #right #navigationShow #hot ul li a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+
+#site_nav #right #navigationShow #Market{
+	width: 520px;
+	margin-top: -155px;
+	margin-left: 490px;
+}
+#site_nav #right #navigationShow #Market ul li a:hover{
+	color: #535df9;
+	text-decoration: underline;
+}
+#site_nav #right #navigationShow  #help{
+	width: 280px;
+	margin-top: -155px;
+	margin-left: 970px;
+}
+/* 第一行end */
+
+#header {
+	padding-left: 50px;
+	width: 990px;
+	height: 95px;
+}
+#header span{
+	padding-left: 150px;
+}
+#header #serach{
+	padding-left: 250px;
+	display: inline-block;
+	margin-top: 20px;
+}
+#header #serach input{
+	width: 400px;
+	height: 30px;
+	border: 2px solid red;
+	outline: 0; 
+	vertical-align: middle;
+}
+#header #serach button{
+	width: 93px;
+	height: 37px;
+	background-color: red;
+	color: white;
+	font-size: 19px;
+	border: none;
+	outline: 0; 
+	vertical-align: middle;
+}
+#s2{
+	margin-left: 200px;
+	width: auto;
+}
+#s2 a{
+	text-decoration: none;
+	font-weight: 700;
+    font-size: 16px;
+	color: black;
+	padding-right: 50px;
+}
+#s2 .red{
+	color: #f40;
+	font-weight: bold;
+}
+#s2 .check{
+	padding-left: 300px;
+	font-size: 12px;
+}
+#s2 button{
+	background-color: #ccc;
+	border: none;
+	height: 30px;
+	width: 65px;
+}
+#s2 a:hover{
+	border-bottom: 2px solid red;
+}
+#goods {
+	margin-left: 200px;
+	width: 950px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+#goods #g1{
+	height: 50px;
+	line-height: 50px;
+	border-top: 2px solid #ccc;
+}
+#goods #g1 #com{
+	padding-left: 100px;
+}
+#goods #g1 #one_price{
+	padding-left: 300px;
+}
+#goods #g1 span{
+	padding-left: 90px;
+}
+#goods .g2{
+	margin-top: 10px;
+}
+
+#goods .g2 .store .header{
+	height: 40px;
+	
+}
+#goods .g2 .store .header a{
+	text-decoration: none;
+	color: black;
+}
+
+#goods .g2 .store .header .wang{
+	background-image: url('../imgs/sprite/wangwang.gif');
+	background-position: -80px -4px;
+	width: 20px;
+	margin-left: 10px;
+}
+
+#goods .g2 .goodsInfo {
+	height: 118px;
+	line-height: 118px;
+	background-color: #f7f7f7;
+	border: 1px solid #e6e6e5;
+	margin-top: 5px;
+}
+#goods .g2 .goodsInfo .img {
+	display: inline-block;
+	padding-top: 10px;	
+}
+
+#goods .g2 .goodsInfo .img  a img {
+	height: 80px;
+	width: 80px;
+}
+
+#goods .g2 .goodsInfo .title {
+	display: inline-block;
+	padding-left: 10px;
+}
+ 
+#goods .g2 .goodsInfo .title a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+#goods .g2 .goodsInfo .title a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+#goods .g2 .goodsInfo .canshu {
+	display: inline-block;
+	padding-left: 30px;
+	color: #999;
+}
+ 
+#goods .g2 .goodsInfo .priceOne {
+	display: inline-block;
+	padding-left: 50px;
+}
+#goods .g2 .goodsInfo .count {
+	display: inline-block;
+	padding-left: 30px;
+}
+#goods .g2 .goodsInfo .count input{
+	width: 30px;
+	height: 20px;
+}
+#goods .g2 .goodsInfo .price {
+	display: inline-block;
+	padding-left: 40px;
+}
+#goods .g2 .goodsInfo .handle {
+	display: inline-block;
+	padding-left: 50px;
+}
+#goods .g2 .goodsInfo .handle a {
+	text-decoration: none;
+	color: black;
+}
+
+#goods #account{
+	width: 950px;
+	margin-top: 10px;
+	font-size: 14px;
+	background-color: #d4d0c4;
+	height: 50px;
+	line-height: 50px;
+}
+#goods #account a{
+	text-decoration: none;
+	color: black;
+	padding-left: 20px;
+}
+#goods #account a#check{
+	padding-left: 250px;
+}
+
+#goods #account button{
+	height: 50px;
+	width: 120px;
+	background-color: #9b916f;
+	color: white;
+	font-size: 20px;
+}
+
+
+/* 掌柜热卖 */
+#goods #auction{
+	margin-top: 50px;
+}
+
+#goods #auction #title a{
+	text-decoration: none;
+	color: #36384a;
+	padding-right: 30px;
+}
+
+
+
+
+#goods #auction #imgs{
+	margin-top: 20px;
+}
+#goods #auction #imgs .all{
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+
+
+#goods #auction #collect{
+	margin-top: 20px;
+}
+#goods #auction #collect .all{
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+
+#footer {
+	margin-top: 60px;
+}

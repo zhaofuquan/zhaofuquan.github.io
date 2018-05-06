@@ -1,0 +1,175 @@
+@font-face{
+	font-family: 'myfontIcon';
+	src: url('../fonts/font-index.woff') format("woff");
+}
+.women_dress:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E60D';
+}
+.men_dress:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E615';
+}
+.women_shoe:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E617';
+}
+.makeup:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E60F';
+}
+.watch:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E606';
+}
+.phone:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E60B';
+}
+.sort:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E623';
+}
+.Maternal_and_infant_toys:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E60a';
+}
+.chaoshi:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E609';
+}
+.shuiguo:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E63D';
+}
+.jiayongdianqi:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E608';
+}
+.jiajujiancai:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E607';
+}
+.qichepeijian:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E610';
+}
+.yiyaobaojian:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E613';
+}
+.chuju:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E612';
+}
+.tushuyinxiang:before{
+	font-family: 'myfontIcon';
+	display: inline-block;
+	content: '\E614';
+}
+
+
+
+
+@font-face{
+	font-family: 'myfontIconLogo';
+	src: url('../fonts/font_logo01.woff') format("woff");
+}
+.tmall:before{
+	font-family: 'myfontIconLogo';
+	display: inline-block;
+	content: '\E610';
+}
+.tianmao:before{
+	font-family: 'myfontIconLogo';
+	display: inline-block;
+	content: '\E611';
+}
+
+
+/* 品牌活动 */
+@font-face{
+	font-family: 'myfontIcon_home';
+	src: url('../fonts/font_activity.woff') format("woff");
+}
+.home:before{
+	font-family: 'myfontIcon_home';
+	display: inline-block;
+	content: '\F012B';
+}
+
+
+/* 购物车页面 */
+@font-face{
+	font-family: 'myfontIcon_buy';
+	src: url('../fonts/font_detail.woff') format("woff");
+}
+.share:before{
+	font-family: 'myfontIcon_buy';
+	display: inline-block;
+	content: '\E607';
+}
+.shoucang:before{
+	font-family: 'myfontIcon_buy';
+	display: inline-block;
+	content: '\E609';
+}
+.juhuasuan:before{
+	font-family: 'myfontIcon_buy';
+	display: inline-block;
+	content: '\E600';
+}
+.right:before{
+	font-family: 'myfontIcon_buy';
+	display: inline-block;
+	content: '\E632';
+}
+.car:before{
+	font-family: 'myfontIcon_buy';
+	display: inline-block;
+	content: '\E612';
+}
+
+
+/* 购物车 */
+.wangwang:before{
+	font-family: 'myfontIcon_buy';
+	display: inline-block;
+	content: '\E624';
+}
+
+
+
+/* 订单生成 */
+@font-face{
+	font-family: 'myfontIcon_ordercreate';
+	src: url('../fonts/font_ordercreate.woff') format("woff");
+}
+.question:before{
+	font-family: 'myfontIcon_ordercreate';
+	display: inline-block;
+	content: '\E620';
+}
+
+
+/* 我的订单 */
+.down:before{
+	font-family: 'myfontIcon_ordercreate';
+	display: inline-block;
+	content: '\E60A';
+}

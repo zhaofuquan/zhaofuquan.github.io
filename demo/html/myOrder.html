@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>已买到的宝贝</title>
+
+	<link href="../imgs/logo.png" rel="shortcut icon" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../css/myOrder.css">
+	<link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+
+</head>
+<body>
+
+	<!-- header -->
+	<div id="header">
+		<div id="title">
+			<a href="" id="index"><span class="home" style="color: red;"></span> 天猫首页</a>
+			<a href=""> Hi，z999999 </a>
+			<a href="">积分<strong> 609 </strong> </a>
+			<a href="">消息<strong> 9 </strong></a>
+			<a href="">退出</a>
+			<a href="" id="myBuy">我的淘宝</a>
+			<a href=""><span class="car" style="color: red;"></span>购物车<strong> 9 </strong> </a>
+			<a href="">收藏夹</a>
+			<a href="">淘宝网</a>
+			<a href="">商家支持</a>
+		</div>
+		<div id="step">
+			<div class="logo"></div>
+			<li>
+				<a href="">首页</a>
+				<a href="">账户设置</a>
+				<a href="">消息</a>
+			</li>
+			<div class="search">
+				<input type="text" name=""><button> 搜 索 </button>
+			</div>
+		</div>
+	</div>
+	<!-- header_end -->
+
+	<!-- content -->
+	<div class="content"> 
+		<div class="left">
+			<ol>
+				<li><a href=""  style="color: red;font-size: 15px;">全部功能</a></li>
+				<li><a href="">我的购物车</a></li>
+				<li><a href="" style="color: red;font-size: 14px;">已买到的宝贝</a> <a href="" class="down" id="downA"></a> </li>
+				<li><a href="">我的拍卖</a></li>
+				<li><a href="">机票酒店保险</a></li>
+				<li><a href="">我的彩票</a></li>
+				<li><a href="">我的游戏</a></li>
+				<li><a href="">官方集运</a></li>
+				<li><a href="">我的发票</a></li>
+				<li><a href="">我的收藏</a></li>
+				<li><a href="">我的积分</a></li>
+				<li><a href="">我的优惠信息</a></li>
+				<li><a href="">评价管理</a></li>
+				<li><a href="">退款维权</a></li>
+				<li><a href="">我的足迹</a></li>
+				<li><a href="">流量钱包</a></li>
+			</ol>
+		</div>
+		<div class="else">
+			<div class="nav">
+				<ul>
+					<li><a href="" style="color: #ff6000;">所有订单</a></li>
+					<li><a href="">待付款</a></li>
+					<li><a href="">待发货</a></li>
+					<li><a href="">待收货</a></li>
+					<li><a href="">待评价</a></li>
+					<li><a href="" style="font-size: 14px">分阶段</a></li>
+					<li><a href="" class="recycle"><img src="../imgs/myOrder/laji.png"> 订单回收站</a></li>
+				</ul>
+			</div>
+			<div class="search">
+				<input type="text" placeholder="输入商品标题或订单号进行搜索"><button>订单搜索</button>
+				<a href=""> 更多筛选条件</a>
+			</div>
+			<div class="goods">
+				<div class="title">
+					<table>
+						<th style="width: 300px;">宝贝</th>
+						<th>单价</th>
+						<th>数量</th>
+						<th>商品操作</th>
+						<th>实付款</th>
+						<th>
+							<select>
+								<option>交易状态</option>
+								<option>等待买家付款</option>
+								<option>付款确认中</option>
+							</select>
+						</th>
+						<th>交易操作</th>
+					</table>
+					<div class="btn">
+						<button>上一页</button><button>下一页</button>
+					</div>
+				</div>
+			</div>
+			<!-- list -->
+			<div class="list">
+				<div class="goods">
+					<div class="title">
+						<ul>
+							<li style="width: 300px;"><strong>2017-12-30 </strong> 订单号: 102774954283109148</li>
+							<li style="width: 150px;padding-left: 60px;"><img src="../imgs/myOrder/tm.png" style="height: 16px;width: 16px;"> 中国移动</li>
+							<li style="width: 80px;height: 20px;" class="tel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+							<li style="padding-left: 130px;" class="del"><a href=""> <img src="../imgs/myOrder/a1.png"></a> </li>
+						</ul>
+					</div>
+					<div class="info">
+						 <div class="img">
+						 	<div class="i1">
+						 		<img src="../imgs/car/g5.jpg">
+						 	</div>
+						 	<div class="text">
+						 		<p>
+						 			韩束墨菊巨补水化妆品套装女秋冬深层保湿爽肤水乳液护肤正品官网
+						 		</p>
+						 		<p>
+						 			<img src="../imgs/car/7.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/8.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/jifen.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/xcard.png" style="height:16px;width:16px;">
+						 		</p>
+						 	</div>
+						 </div>
+						 <div class="onePrice">
+						 	<span>￥168.9</span>
+						 </div>
+						 <div class="count">
+						 	<span>1</span>
+						 </div>
+						 <div class="goodsHandle">
+						 	<p><a href="">申请售后</a></p>
+						 	<p><a href="">投诉商家</a></p>
+						 </div>
+						 <div class="price">
+						 	 <span>￥ 168.9</span>
+						 </div>
+						 <div class="state">
+						 	<p><a href="">交易成功</a></p>
+						 	<p><a href="">订单详情</a></p>
+						 </div>
+						 <div class="han">
+						 	<p><button>评价</button></p>
+						 	<p><a href="">再次购买</a></p>
+						 </div>
+					</div>
+				</div>
+				<div class="goods">
+					<div class="title">
+						<ul>
+							<li style="width: 300px;"><strong>2017-12-30 </strong> 订单号: 102774954283109148</li>
+							<li style="width: 150px;padding-left: 60px;"><img src="../imgs/myOrder/tm.png" style="height: 16px;width: 16px;"> 中国移动</li>
+							<li style="width: 80px;height: 20px;" class="tel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+							<li style="padding-left: 130px;" class="del"><a href=""> <img src="../imgs/myOrder/a1.png"></a> </li>
+						</ul>
+					</div>
+					<div class="info">
+						 <div class="img">
+						 	<div class="i1">
+						 		<img src="../imgs/car/g5.jpg">
+						 	</div>
+						 	<div class="text">
+						 		<p>
+						 			韩束墨菊巨补水化妆品套装女秋冬深层保湿爽肤水乳液护肤正品官网
+						 		</p>
+						 		<p>
+						 			<img src="../imgs/car/7.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/8.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/jifen.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/xcard.png" style="height:16px;width:16px;">
+						 		</p>
+						 	</div>
+						 </div>
+						 <div class="onePrice">
+						 	<span>￥168.9</span>
+						 </div>
+						 <div class="count">
+						 	<span>1</span>
+						 </div>
+						 <div class="goodsHandle">
+						 	<p><a href="">申请售后</a></p>
+						 	<p><a href="">投诉商家</a></p>
+						 </div>
+						 <div class="price">
+						 	 <span>￥ 168.9</span>
+						 </div>
+						 <div class="state">
+						 	<p><a href="">交易成功</a></p>
+						 	<p><a href="">订单详情</a></p>
+						 </div>
+						 <div class="han">
+						 	<p><button>评价</button></p>
+						 	<p><a href="">再次购买</a></p>
+						 </div>
+					</div>
+				</div>
+				<div class="goods">
+					<div class="title">
+						<ul>
+							<li style="width: 300px;"><strong>2017-12-30 </strong> 订单号: 102774954283109148</li>
+							<li style="width: 150px;padding-left: 60px;"><img src="../imgs/myOrder/tm.png" style="height: 16px;width: 16px;"> 中国移动</li>
+							<li style="width: 80px;height: 20px;" class="tel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+							<li style="padding-left: 130px;" class="del"><a href=""> <img src="../imgs/myOrder/a1.png"></a> </li>
+						</ul>
+					</div>
+					<div class="info">
+						 <div class="img">
+						 	<div class="i1">
+						 		<img src="../imgs/car/g5.jpg">
+						 	</div>
+						 	<div class="text">
+						 		<p>
+						 			韩束墨菊巨补水化妆品套装女秋冬深层保湿爽肤水乳液护肤正品官网
+						 		</p>
+						 		<p>
+						 			<img src="../imgs/car/7.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/8.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/jifen.png" style="height:16px;width:16px;">
+			 						<img src="../imgs/car/xcard.png" style="height:16px;width:16px;">
+						 		</p>
+						 	</div>
+						 </div>
+						 <div class="onePrice">
+						 	<span>￥168.9</span>
+						 </div>
+						 <div class="count">
+						 	<span>1</span>
+						 </div>
+						 <div class="goodsHandle">
+						 	<p><a href="">申请售后</a></p>
+						 	<p><a href="">投诉商家</a></p>
+						 </div>
+						 <div class="price">
+						 	 <span>￥ 168.9</span>
+						 </div>
+						 <div class="state">
+						 	<p><a href="">交易成功</a></p>
+						 	<p><a href="">订单详情</a></p>
+						 </div>
+						 <div class="han">
+						 	<p><button>评价</button></p>
+						 	<p><a href="">再次购买</a></p>
+						 </div>
+					</div>
+				</div>
+			</div>
+			<div class="page">
+				 <button>1</button>
+				 <button>2</button>
+				 <button>3</button>
+				 <button>4</button>
+				 <button>5</button>
+				 <button>6</button>
+				 <button>7</button>
+				 <button>8</button>
+			</div>
+		</div>
+	
+	</div>
+	<!-- content_end -->
+
+	<!-- 热卖商品 -->
+	<div class="hot">
+		<div class="title">
+			<li><a href="" style="color: #F40;font-weight: bold; font-size: 17px;padding-right: 50px;">热卖单品</a></li>
+			<li><a href="">女棉服</a></li>
+			<li><a href="">男棉衣</a></li>
+			<li><a href="">儿童衣</a></li>
+			<li><a href="">护肤</a></li>
+			<li><a href="">胶囊壳</a></li>
+			<li><a href="">牛仔裤</a></li>
+			<li><a href="">棉衣</a></li>
+			<li><a href="">棉服</a></li>
+			<li><a href="">麦吉丽</a></li>
+			<li><a href="">女棉衣</a></li>
+			<li><a href="">棉服女</a></li>
+			<li><a href="">化妆品</a></li>
+			<li><a href="">喇叭裤</a></li>
+			<li><a href="">护肤品</a></li>
+			<li><a href="">羽绒衣</a></li>
+			<li><a href="">白鞋</a></li>
+			<li><a href="">小白鞋</a></li>
+			<li><a href="">板鞋</a></li>
+			<li><a href="" style="padding-left: 30px;">更多></a></li>
+		</div>
+		<div class="goods">
+			<div class="c">
+				<p>
+					<img src="../imgs/myOrder/g1.jpg">
+				</p>
+				<p class="p2">
+					<strong>￥ 133.00 </strong><span class="originalPrice">￥199.00 </span><span class="ri">包邮</span>
+				</p>
+				<p class="p3">
+					<span>荟宝芦荟护肤化妆品套装学生洗面奶</span>
+				</p>
+				<p class="p4">
+					<span>销量：15995</span><span class="ri">品牌钜惠</span>
+				</p>
+				<p class="p5">
+					<div style="height: 58px;width: 188px;font-size: 12px;background-color: pink;color: #666;margin-left: 20px;margin-top: 15px;">
+						告诉你，这家的东西最耐用了！
+					</div>
+				</p>
+			</div>
+			<div class="c">
+				<p>
+					<img src="../imgs/myOrder/g2.jpg">
+				</p>
+				<p class="p2">
+					<strong>￥ 39.00 </strong><span class="originalPrice">￥199.00 </span><span class="ri">包邮</span>
+				</p>
+				<p class="p3">
+					<span>抢购价!韩束红石洁面乳洗面奶深层清洁</span>
+				</p>
+				<p class="p4">
+					<span>销量：25955</span><span class="ri">品牌钜惠</span>
+				</p>
+				<p class="p5">
+					<div style="height: 58px;width: 188px;font-size: 12px;background-color: pink;color: #666;margin-left: 20px;margin-top: 15px;">
+						细腻充沛的泡沫，轻柔洗去
+					</div>
+				</p>
+			</div>
+			<div class="c">
+				<p>
+					<img src="../imgs/myOrder/g4.jpg">
+				</p>
+				<p class="p2">
+					<strong>￥ 133.00 </strong><span class="originalPrice">￥199.00 </span><span class="ri">包邮</span>
+				</p>
+				<p class="p3">
+					<span>金盏花爽肤水乳液套装</span>
+				</p>
+				<p class="p4">
+					<span>销量：15995</span><span class="ri">品牌钜惠</span>
+				</p>
+				<p class="p5">
+					<div style="height: 58px;width: 188px;font-size: 12px;background-color: pink;color: #666;margin-left: 20px;margin-top: 15px;">
+						金盏花爽肤水乳液套装
+					</div>
+				</p>
+			</div>
+			<div class="c">
+				<p>
+					<img src="../imgs/myOrder/g5.jpg">
+				</p>
+				<p class="p2">
+					<strong>￥ 133.00 </strong><span class="originalPrice">￥199.00 </span><span class="ri">包邮</span>
+				</p>
+				<p class="p3">
+					<span>水密码套装水乳BB霜补水保湿爽肤水</span>
+				</p>
+				<p class="p4">
+					<span>销量：15995</span><span class="ri">品牌钜惠</span>
+				</p>
+				<p class="p5">
+					<div style="height: 58px;width: 188px;font-size: 12px;background-color: pink;color: #666;margin-left: 20px;margin-top: 15px;">
+						水密码套装水乳BB霜补水
+					</div>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- 热卖商品end -->
+ 	
+ 	<!-- 猜你喜欢 -->
+	<div class="like">
+		<div class="title">
+			<span class="like">猜你喜欢</span><span class="find">|淘宝发现</span><span class="ri">根据你最近浏览推荐</span>
+		</div>
+		<div class="goods">
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g10.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g2.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g8.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g4.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g5.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g6.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g7.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g3.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g9.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+			<div class="d1">
+				<a href="">
+					<p class="p1">
+						<img src="../imgs/myOrder/g1.jpg">
+					</p>
+					<p>
+						<strong style="color: #f40;padding-left: 60px;">￥199.00</strong>
+					</p>
+					<p>
+						<span style="font-size: 15px;">韩束化妆品套装女红石榴水</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">月销：96566</span>
+					</p>
+					<p>
+						<span style="font-size: 12px;">根据你浏览的“面部护理套装”</span>
+					</p>
+				</a>
+			</div>
+		</div>
+		<div id="jianyi">
+			<img src="../imgs/myOrder/i1.png"><span>我对已买到的宝贝有意见或建议， <a href="">跟淘宝说两句</a> </span>
+		</div>
+	</div>
+ 	<!-- 猜你喜欢end -->
+<img src="../imgs/myOrder/footer.png">
+
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+		
+		// $("#downA").click(function(event) {
+		// 	$("div.content div.left ol ul.hide").removeClass('hide');
+		// });
+
+		$("div.hot div.goods div").hover(function() {
+			$(this).css({
+				"border": '1px solid #F40'
+				// property2: 'value2'
+			});
+			//console.log($("div.hot div.goods div .p5 div"));
+			//$("div.hot div.goods div .p5 div").css('backgroundColor', 'red');
+		}, function() {
+			$(this).css({
+				"border": '1px solid #ccc'
+				// property2: 'value2'
+			});
+		});
+
+
+	});
+
+</script>
+
+	
+</body>
+</html>
